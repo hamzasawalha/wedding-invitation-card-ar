@@ -18,7 +18,7 @@ function updateTimer() {
         '<div>' + d + '<span>ايام</span></div>' +
         '<div>' + h + '<span>ساعة</span></div>' +
         '<div>' + m + '<span>دقيقة</span></div>' +
-        '<div>' + s + '<span>دقيقة</span></div>' ;
+        '<div>' + s + '<span>ثانية</span></div>' ;
   }
 function openCard(){
     const card = document.querySelector('.card .cover');
