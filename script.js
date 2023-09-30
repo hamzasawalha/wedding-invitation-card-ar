@@ -15,10 +15,10 @@ function updateTimer() {
   
     document.getElementById("timer")
       .innerHTML =
-        '<div>' + d + '<span>days</span></div>' +
-        '<div>' + h + '<span>hours</span></div>' +
-        '<div>' + m + '<span>minutes</span></div>' +
-        '<div>' + s + '<span>seconds</span></div>' ;
+        '<div>' + d + '<span>ايام</span></div>' +
+        '<div>' + h + '<span>ساعات</span></div>' +
+        '<div>' + m + '<span>دقايق</span></div>' +
+        '<div>' + s + '<span>ثواني</span></div>' ;
   }
 function openCard(){
     const card = document.querySelector('.card .cover');
